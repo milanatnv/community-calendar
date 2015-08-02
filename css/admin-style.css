@@ -1,0 +1,37 @@
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 46% !important; }
+.pto-table { border-collapse: collapse; }
+.pto-table td, .pto-table th { border: 1px solid #ccc; padding: 8px; }
+.pto-table th { text-align: left; }
+
+.vm_holiday_date { width: 90%; box-sizing: border-box !important; background-color: #fff !important; }
+.vm_holiday_name { width: 100%; box-sizing: border-box !important; }
+
+#adminmenu #menu-posts-tribe_events { display: none; }
+
+div#vm-pinner
+{
+    display: none;
+    width:128px;
+    height: 128px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background:url(../images/ajax-loader.gif) no-repeat center;
+    padding:10px;
+    margin-left: -64px;
+    margin-top: -64px;
+    z-index: 100000;
+    overflow: auto;
+}
+
+div#vm-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 99999;
+}
+
+.post-type-vacation #post-body-content { display: none; }

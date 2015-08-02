@@ -1,0 +1,91 @@
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 46% !important; }
+#event-form #event-name { max-width: 400px; }
+#event-form #em-form-recurrence input.em-date-input-loc { max-width: 120px; }
+.em-location-data th { min-width: 130px; }
+#em-location-data table.em-location-data .em-location-data-country select { width: 98%; }
+
+.event-form-bookings .ticket-description textarea.ticket_description, input#recurrence-interval{
+    position: relative;
+    z-index: 0;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 3px 4px 0 #CCCCCC inset;
+    -webkit-box-shadow: 1px 3px 4px 0 #CCCCCC inset;
+    padding: 4px;
+    background: #eee;
+}
+#em-tickets-form thead th { text-align: left; }
+#event-form .em-recurring-text #end-days { max-width: 100px; }
+
+#em-booking-options input[type="text"] { max-width: 100px; }
+
+#wpfc-calendar .fc-header { margin-bottom: 10px; }
+
+.tribe-events-tooltip {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.4;
+}
+
+.tribe-events-tooltip h4 {
+    margin: 0;
+    color: #333333;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0 3px;
+    min-height: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
+}
+
+.tribe-events-tooltip .duration {
+    font-style: italic;
+    margin: 3px 0;
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 3px 6px;
+    color: #003660;
+}
+
+.tribe-events-tooltip div.description > p {
+    padding: 0 6px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #003C69;
+}
+
+.tribe-events-tooltip .reservation {
+    font-size: 13px; 
+    padding: 0 3px;
+    color: #003C69;    
+}
+
+.tribe-events-tooltip .line {
+    margin: 10px 0;
+    border-top: 1px solid #e7e7e7;
+}
+
+.tribe-events-event-body {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.bp-user.buddypress .wrapper .padder { font-size: 12px; }
+
+.bp-user table tr th, table.events-table tr th { text-align: left; }
+table.events-table tr th.event-time { width: 250px; }
+
+.page-events-activities table.em-location-data { display: block; width: 100%; }
+.ui-widget-header { border: 1px solid #003660 !important; background: #47708E !important; }
+.featured-post .excerpt > p { line-height: 15px; }
+
+.add-to-ical { margin-right: 10px; color: #003C69; line-height: 22px; float: right; }
+
+.fc-header-title > h2 { font-size: 20px !important; }
+
+.single-event ul.event-categories { display: inline-block; }
+#activity-stream .loading { height: auto; }
